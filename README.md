@@ -36,9 +36,15 @@ for **4D 21 R5**; restored so it runs on current 4D releases.
 
 ## Requirements
 
-- 4D 21 R5 or later (the project declares `compatibilityVersion` 2150).
+- 4D 21 R5 or a later **feature release** (the project declares
+  `compatibilityVersion` 2150). The 21.x LTS line (e.g. 21.2 LTS) is *not*
+  sufficient: the Embedding Studio component declares a minimum version of
+  21 R5 and 4D refuses to load it there ("current application version is too
+  low"), even though the project itself opens.
 - The components `4d/4D-AIKit` and `4d/4D-Embedding-Studio`, resolved through
-  `Project/dependencies.json` on first open.
+  `Project/dependencies.json` on first open (network access required for the
+  download; `tool4d` headless runs do not download dependencies — stage them
+  in `Components/` yourself, see `.agents/skills/4dproject/references/dependencies.md`).
 - An API key for an AI provider supporting embedding models (e.g. OpenAI
   `text-embedding-3-large`). `Project/Sources/AIProviders.json` ships the
   provider endpoint and model aliases but no key: open **4D Settings > AI**
