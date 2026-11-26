@@ -105,7 +105,7 @@ Each branch represents a distinct modernisation effort, guided by a 4D skill.
 | [`localise-ja`](../../tree/localise-ja) | English/Japanese XLIFF resources, HTML help pages, localised alerts and reports | [`4dlocalise`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dlocalise) |
 | [`polish-ui`](../../tree/polish-ui) | dark mode, Liquid Glass button heights, stylesheet split | [`4dcss`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dcss) |
 | [`demo-japan`](../../tree/demo-japan) | per-language sample data, sample-query dropdown, regenerate button | [`demo-sample-data`](https://github.com/miyako/skills/tree/main/4d-skills/skills/demo-sample-data) |
-| [`shareable-repo`](../../tree/shareable-repo) | `compatibilityVersion`, startup pattern, agent setup | [`4dstartup`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dstartup) |
+| [`shareable-repo`](../../tree/shareable-repo) | `compatibilityVersion`, startup pattern, agent setup, verified 4D version requirement (21 R5+ feature release; 21.x LTS cannot load the components) | [`4dstartup`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dstartup) |
 
 ## References
 
