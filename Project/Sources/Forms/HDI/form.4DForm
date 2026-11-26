@@ -47,8 +47,8 @@
 					"left": 0,
 					"width": 724,
 					"height": 364,
-					"fill": "#C0C0C0",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"class": "splashBand"
 				}
 			}
 		},
@@ -59,11 +59,10 @@
 					"top": 520,
 					"left": 614,
 					"width": 90,
-					"height": 20,
 					"action": "Accept",
 					"shortcutKey": "[Return]",
 					"text": ":xliff:Splash_ButtonDemo",
-					"class": "default1",
+					"class": "Buttons_13",
 					"focusable": false,
 					"defaultButton": true,
 					"events": [
@@ -94,8 +93,8 @@
 					"left": 130,
 					"width": 300,
 					"height": 17,
-					"stroke": "#696969",
-					"text": ":xliff:Splash_VersionAbove"
+					"text": ":xliff:Splash_VersionAbove",
+					"class": "mutedText"
 				},
 				"labelVersion": {
 					"type": "text",
@@ -137,7 +136,6 @@
 					"width": 300,
 					"height": 17,
 					"dataSource": "Form:C1466.blog",
-					"stroke": "#1E90FF",
 					"textDecoration": "underline",
 					"focusable": false,
 					"fill": "transparent",
@@ -148,7 +146,8 @@
 					"method": "ObjectMethods/txtBlog.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "linkText"
 				},
 				"txtInfo": {
 					"type": "input",
@@ -157,7 +156,6 @@
 					"width": 300,
 					"height": 17,
 					"dataSource": "Form:C1466.info",
-					"stroke": "#696969",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -166,7 +164,8 @@
 					"dropping": "custom",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "mutedText"
 				},
 				"Picture11": {
 					"type": "picture",

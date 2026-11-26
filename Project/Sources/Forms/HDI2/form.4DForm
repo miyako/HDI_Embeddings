@@ -46,7 +46,6 @@
 					"top": 760,
 					"left": 1078,
 					"width": 102,
-					"height": 24,
 					"sizingX": "move",
 					"sizingY": "move",
 					"tooltip": ":xliff:Tip_Close",
@@ -106,14 +105,14 @@
 					"left": 20,
 					"width": 1160,
 					"height": 85,
-					"stroke": "#ff0000",
 					"borderRadius": 5,
 					"verticalAlign": "middle",
 					"textAlign": "center",
 					"fontSize": 24,
 					"visibility": "hidden",
 					"sizingX": "grow",
-					"sizingY": "move"
+					"sizingY": "move",
+					"class": "warningText"
 				}
 			}
 		},
@@ -146,7 +145,6 @@
 					"top": 280,
 					"left": 509,
 					"width": 180,
-					"height": 26,
 					"text": ":xliff:HDI2_ButtonOpenSettings",
 					"class": "Buttons_13",
 					"events": [
@@ -261,7 +259,6 @@
 					"top": 417,
 					"left": 273,
 					"width": 180,
-					"height": 25,
 					"text": ":xliff:HDI2_ButtonGenerateInvalid",
 					"class": "Buttons_13",
 					"events": [
@@ -302,7 +299,6 @@
 					"top": 417,
 					"left": 60,
 					"width": 180,
-					"height": 25,
 					"text": ":xliff:HDI2_ButtonGenerateAll",
 					"class": "Buttons_13",
 					"events": [
@@ -434,7 +430,8 @@
 							"minWidth": 120,
 							"maxWidth": 200
 						}
-					]
+					],
+					"alternateFill": "automaticAlternate"
 				},
 				"Input": {
 					"type": "input",
@@ -518,12 +515,12 @@
 					"top": 619,
 					"left": 1062,
 					"width": 78,
-					"height": 25,
 					"events": [
 						"onClick"
 					],
 					"method": "ObjectMethods/Button.4dm",
-					"sizingX": "move"
+					"sizingX": "move",
+					"class": "Buttons_13"
 				}
 			}
 		},
@@ -574,13 +571,13 @@
 					"top": 364,
 					"left": 822,
 					"width": 140,
-					"height": 23,
 					"sizingX": "move",
 					"text": ":xliff:HDI2_ButtonSearch",
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/BtnSearch.4dm"
+					"method": "ObjectMethods/BtnSearch.4dm",
+					"class": "Buttons_13"
 				},
 				"listboxSearch": {
 					"type": "listbox",
@@ -693,7 +690,8 @@
 							"minWidth": 120,
 							"maxWidth": 200
 						}
-					]
+					],
+					"alternateFill": "automaticAlternate"
 				},
 				"Check Box1": {
 					"type": "checkbox",
@@ -741,13 +739,13 @@
 					"top": 364,
 					"left": 1000,
 					"width": 140,
-					"height": 23,
 					"sizingX": "move",
 					"text": ":xliff:HDI2_ButtonClear",
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/BtnClear.4dm"
+					"method": "ObjectMethods/BtnClear.4dm",
+					"class": "Buttons_13"
 				}
 			}
 		}

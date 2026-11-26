@@ -1,24 +1,32 @@
+/* HDI_Embeddings — Windows styles.
+   Fluent UI heights are unverified (no Windows capture yet): the values
+   mirror the heights the forms shipped with. */
+
 .Buttons_13 {
 	font-family: Segoe UI;
 	font-size: 12px;
 }
 
-.default {
-	font-family: Segoe UI;
-	font-size: 12px;
-}
-
-.default1 {
-	font-family: Segoe UI;
-	font-size: 12px;
-}
-
-.HDI {
-	font-family: Segoe UI;
-	font-size: 16px;
-	font-weight: bold;
-}
-
 .description {
-    font-size: 14px;
+	font-size: 14px;
+}
+
+@media (form-theme: fluent-ui) {
+	.Buttons_13 {
+		height: 26px;
+	}
+
+	button.Buttons_13 {
+		height: 26px;
+	}
+}
+
+@media (form-theme: win-classic) {
+	.Buttons_13 {
+		height: 23px;
+	}
+
+	button.Buttons_13 {
+		height: 23px;
+	}
 }
