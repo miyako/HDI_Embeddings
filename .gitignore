@@ -1,52 +1,42 @@
-#--------------------------------
-# Ignore invisible files/folders
-#--------------------------------
-.*
-!.git*
-.git/
+# Canonical 4D baseline: .agents/skills/4dproject/SKILL.md ("## .gitignore")
 
-#--------------------------------
-# Ignore data file
-#--------------------------------
-#[dD][aA][tT][aA]/
-*.journal
-*.4DIndx
-*.Match
-
-#--------------------------------
-# Ignore derived data
-#--------------------------------
-Project/DerivedData/
-Libraries/
-
-#--------------------------------
-# Ignore logs
-#--------------------------------
-Logs/
-
-#--------------------------------
-# Ignore settings & preferences
-#--------------------------------
-userPreferences.*/
-Settings/*
-!Settings/embeddings.json
-#!buildApp.4DSettings
-
-#--------------------------------
-# Miscellaneous
-#--------------------------------
-*__Orphan__*
-*symbols.txt
+# macOS / Windows
+.DS_Store
 ehthumbs.db
 Thumbs.db
 
-#--------------------------------
-# Added by user
-#--------------------------------
-Resources/php.ini
+# 4D runtime / user data
+[dD][aA][tT][aA]/
+*.journal
+*.4DIndx
+*.Match
+Logs/
+userPreferences.*
+
+# 4D derived data and caches
+DerivedData/
+Project/DerivedData/
+
+# 4D components installed by the dependency manager
+Libraries/
+
+# Documentation/ is NOT ignored: it holds developer-written .md files attached to methods and forms.
+
+# 4D trash
 Project/Trash/
 
-# Tools provisioned by the 4D skills (see the 4dtools skill)
+# User settings (settings.4DSettings, Backup.4DSettings, directory.json, AIProviders.json).
+# The demo ships its embedding definition (Settings/embeddings.json); everything else in
+# Settings/ is machine-specific. Never commit API keys whichever way this is handled.
+Settings/*
+!Settings/embeddings.json
+
+# Miscellaneous
+*__Orphan__*
+*symbols.txt
+Resources/php.ini
+
+# Tools provisioned by the skills in .agents (4dtools). Do NOT ignore the whole tools/ folder.
 /tools/4dcatalog/
 /tools/4dform/
 /tools/4dlsp/

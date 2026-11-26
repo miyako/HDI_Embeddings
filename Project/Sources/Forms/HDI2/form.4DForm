@@ -57,20 +57,6 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/BtnOK.4dm"
-				},
-				"Check Box": {
-					"type": "checkbox",
-					"text": "Trace",
-					"top": 755,
-					"left": 23,
-					"width": 175,
-					"height": 24,
-					"events": [
-						"onClick"
-					],
-					"dataSourceTypeHint": "boolean",
-					"dataSource": "Form:C1466.trace",
-					"sizingY": "move"
 				}
 			}
 		},

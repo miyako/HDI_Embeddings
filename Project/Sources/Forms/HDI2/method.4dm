@@ -22,8 +22,6 @@ Case of
 		OBJECT SET ENTERABLE:C238(*; "listboxUpdateRecord"; False:C215)
 		OBJECT SET ENTERABLE:C238(*; "listboxSearch"; False:C215)
 		
-		Form:C1466.trace:=False:C215
-		
 		Form:C1466.allStudents:=ds:C1482.Students.all()
 		Form:C1466.students:=ds:C1482.Students.all()
 		
@@ -51,11 +49,8 @@ Case of
 		End if 
 		
 	: (Form event code:C388=On Close Box:K2:21)
-		If (Is Windows:C1573 && Application info:C1599().SDIMode)
-			QUIT 4D:C291
-		Else 
-			CANCEL:C270
-		End if 
+		// return to design mode instead of quitting the process
+		CANCEL:C270
 		
 End case 
 

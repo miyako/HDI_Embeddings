@@ -15,10 +15,6 @@ If (Form.queryText="")
 	return 
 End if 
 
-If (Form.trace)
-	TRACE
-End if 
-
 $settings:=cs.EmbeddingStudio.Settings.new()
 $definition:=$settings.find("Students"; "student_vector")
 If ($definition=Null)

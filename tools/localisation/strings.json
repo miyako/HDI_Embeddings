@@ -1,103 +1,427 @@
 {
-	"_languages": ["en", "ja"],
+	"_languages": [
+		"en",
+		"ja"
+	],
 	"menu": [
-		["MenuDemo", "Demo", "デモ"],
-		["MenuItemDemo", "Demo", "デモを開始"],
-		["MenuItemQuit", "Quit", "終了"],
-		["MenuEdit", "Edit", "編集"],
-		["MenuItemUndo", "Undo", "取り消す"],
-		["MenuItemCut", "Cut", "カット"],
-		["MenuItemCopy", "Copy", "コピー"],
-		["MenuItemPaste", "Paste", "ペースト"],
-		["MenuItemClear", "Clear", "消去"],
-		["MenuItemSelectAll", "Select All", "すべてを選択"],
-		["MenuItemShowClipboard", "Show Clipboard", "クリップボードを表示"],
-		["MenuMode", "Mode", "モード"],
-		["MenuItemDesign", "Return to Design mode", "デザインモードに戻る"]
+		[
+			"MenuDemo",
+			"Demo",
+			"デモ"
+		],
+		[
+			"MenuItemDemo",
+			"Demo",
+			"デモを開始"
+		],
+		[
+			"MenuItemQuit",
+			"Quit",
+			"終了"
+		],
+		[
+			"MenuEdit",
+			"Edit",
+			"編集"
+		],
+		[
+			"MenuItemUndo",
+			"Undo",
+			"取り消す"
+		],
+		[
+			"MenuItemCut",
+			"Cut",
+			"カット"
+		],
+		[
+			"MenuItemCopy",
+			"Copy",
+			"コピー"
+		],
+		[
+			"MenuItemPaste",
+			"Paste",
+			"ペースト"
+		],
+		[
+			"MenuItemClear",
+			"Clear",
+			"消去"
+		],
+		[
+			"MenuItemSelectAll",
+			"Select All",
+			"すべてを選択"
+		],
+		[
+			"MenuItemShowClipboard",
+			"Show Clipboard",
+			"クリップボードを表示"
+		],
+		[
+			"MenuMode",
+			"Mode",
+			"モード"
+		],
+		[
+			"MenuItemDesign",
+			"Return to Design mode",
+			"デザインモードに戻る"
+		]
 	],
 	"messages": [
-		["Splash_Title", "Generate and use AI embedding vectors\rwith the 4D Embedding Studio component", "4D Embedding Studioコンポーネントで\rAIエンベディングベクトルを生成・活用"],
-		["Splash_Heading", "How do I…", "How do I…"],
-		["Splash_InfoValue", "AI Embedding feature", "AIエンベディング機能"],
-		["Splash_VersionLabel", "Version:", "バージョン:"],
-		["Splash_BlogLabel", "Blog:", "ブログ:"],
-		["Splash_InfoLabel", "Info:", "情報:"],
-		["Splash_VersionAbove", "{version} and above", "{version} 以上が必要"],
-		["Splash_ErrorMain", "Sorry, this \"How do I\" (HDI) example must\rbe used with a newer version of 4D\r({version} and above)", "申し訳ありませんが、このHDI例は\rより新しいバージョンの4Dが必要です\r（{version} 以上）"],
-		["Splash_ErrorSub", "Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.", "このバージョンのデザインモードからこのHDIを開かないでください。開くと、機能が不足しているためフォームやメソッドが変更される可能性があります。"],
-		["Splash_ButtonDemo", "Demo", "デモ開始"],
-		["Splash_ButtonQuit", "Quit 4D", "4Dを終了"],
-		["HDI2_WindowTitle", "AI Embedding Vectors", "AIエンベディングベクトル"],
-		["HDI2_MissingComponents", "Sorry, this “How do I” (HDI) example demonstrates an embedding feature.\rYou must have the 4D Embedding Studio and 4D AIKit components to use this demo.", "このHDI例はエンベディング機能を紹介しています。\r使用するには4D Embedding Studioと4D AIKitコンポーネントが必要です。"],
-		["HDI2_ButtonClose", "Close", "閉じる"],
-		["Tip_Close", "Close the demo and return to Design mode", "デモを閉じてデザインモードに戻ります"],
-		["HDI2_ButtonOpenSettings", "Open 4D AI Settings", "4D AI設定を開く"],
-		["HDI2_ButtonGenerateInvalid", "Generate invalid vectors", "未更新のベクトルを生成"],
-		["HDI2_ButtonGenerateAll", "Generate all vectors", "全ベクトルを生成"],
-		["HDI2_LabelResults", "Results:", "結果:"],
-		["HDI2_ButtonSave", "Save", "保存"],
-		["HDI2_LabelSearch", "Search:", "検索:"],
-		["HDI2_ButtonSearch", "Search", "検索"],
-		["HDI2_ButtonClear", "Clear search", "検索をクリア"],
-		["HDI2_CheckIncludeDirty", "Include dirty vectors", "未更新のベクトルを含める"],
-		["HDI2_LabelThreshold", "Threshold:", "しきい値:"],
-		["HDI2_ThresholdHint", "Depends on the model.", "モデルによって異なります。"],
-		["Column_ID", "ID", "ID"],
-		["Column_Dirty", "Dirty", "要更新"],
-		["Column_FirstName", "First Name", "名"],
-		["Column_LastName", "Last Name", "姓"],
-		["Column_Program", "Program", "専攻"],
-		["Column_Bio", "Bio", "経歴"],
-		["Column_Yes", "Yes", "はい"],
-		["Alert_EnterQuery", "Please enter a search query.", "検索クエリを入力してください。"],
-		["Alert_NoDefinition", "No definition found. Check Settings/embeddings.json.", "エンベディング定義が見つかりません。Settings/embeddings.jsonを確認してください。"],
-		["Alert_ErrorTemplate", "Error: {1}", "エラー: {1}"],
-		["Alert_NoVector", "Error: no vector returned for the query.", "エラー: クエリのベクトルが返されませんでした。"],
-		["Msg_NoResult", "No result", "該当なし"],
-		["Alert_SelectStudent", "Please select a student in the list first.", "先にリストで学生を選択してください。"],
-		["Alert_SaveFailed", "The student could not be saved: {1}", "学生を保存できませんでした: {1}"],
-		["Report_Done", "Done", "完了"],
-		["Report_Updated", "Entities updated : {1}", "更新されたエンティティ : {1}"],
-		["Report_Skipped", "Entities skipped : {1}", "スキップされたエンティティ : {1}"],
-		["Report_Tokens", "Tokens used      : {1}", "使用トークン          : {1}"],
-		["Report_APICalls", "API calls        : {1}", "API呼び出し            : {1}"],
-		["Report_Duration", "Duration         : {1} ms", "所要時間              : {1} ms"],
-		["Report_Error", "Error", "エラー"],
-		["Info_Tab1", "Overview", "概要"],
-		["Info_Tab2", "Configure AI settings", "AI設定"],
-		["Info_Tab3", "Configure Embeddings", "エンベディング設定"],
-		["Info_Tab4", "Generate Embeddings", "ベクトル生成"],
-		["Info_Tab5", "Update Records", "レコード更新"],
-		["Info_Tab6", "Search Embeddings", "ベクトル検索"],
-		["Search_Placeholder", "Search examples…", "検索例…"],
-		["Search_Sample1", "AI research", "AI研究"],
-		["Search_Sample2", "network security", "ネットワークセキュリティ"],
-		["Search_Sample3", "loves databases", "データベースが好き"],
-		["Search_Sample4", "user experience", "ユーザー体験"],
-		["Search_Sample5", "predictive analytics", "予測分析"],
-		["Btn_Regenerate", "Regenerate sample data", "サンプルデータを再生成"],
-		["Tip_Regenerate", "Drop all students and recreate them in the current UI language", "全学生を削除し、現在のUI言語で再作成します"],
-		["Confirm_Regenerate", "Drop all students and recreate the sample data?\rVectors must be regenerated afterwards.", "全学生を削除してサンプルデータを再作成しますか？\rベクトルは後で再生成が必要です。"],
-		["Msg_Regenerated", "{1} students created. Regenerate the vectors before searching.", "{1} 人の学生を作成しました。検索の前にベクトルを再生成してください。"]
+		[
+			"HDI2_WindowTitle",
+			"AI Embedding Vectors",
+			"AIエンベディングベクトル"
+		],
+		[
+			"HDI2_MissingComponents",
+			"Sorry, this “How do I” (HDI) example demonstrates an embedding feature.\rYou must have the 4D Embedding Studio and 4D AIKit components to use this demo.",
+			"このHDI例はエンベディング機能を紹介しています。\r使用するには4D Embedding Studioと4D AIKitコンポーネントが必要です。"
+		],
+		[
+			"HDI2_ButtonClose",
+			"Close",
+			"閉じる"
+		],
+		[
+			"Tip_Close",
+			"Close the demo and return to Design mode",
+			"デモを閉じてデザインモードに戻ります"
+		],
+		[
+			"HDI2_ButtonOpenSettings",
+			"Open 4D AI Settings",
+			"4D AI設定を開く"
+		],
+		[
+			"HDI2_ButtonGenerateInvalid",
+			"Generate invalid vectors",
+			"未更新のベクトルを生成"
+		],
+		[
+			"HDI2_ButtonGenerateAll",
+			"Generate all vectors",
+			"全ベクトルを生成"
+		],
+		[
+			"HDI2_LabelResults",
+			"Results:",
+			"結果:"
+		],
+		[
+			"HDI2_ButtonSave",
+			"Save",
+			"保存"
+		],
+		[
+			"HDI2_LabelSearch",
+			"Search:",
+			"検索:"
+		],
+		[
+			"HDI2_ButtonSearch",
+			"Search",
+			"検索"
+		],
+		[
+			"HDI2_ButtonClear",
+			"Clear search",
+			"検索をクリア"
+		],
+		[
+			"HDI2_CheckIncludeDirty",
+			"Include dirty vectors",
+			"未更新のベクトルを含める"
+		],
+		[
+			"HDI2_LabelThreshold",
+			"Threshold:",
+			"しきい値:"
+		],
+		[
+			"HDI2_ThresholdHint",
+			"Depends on the model.",
+			"モデルによって異なります。"
+		],
+		[
+			"Column_ID",
+			"ID",
+			"ID"
+		],
+		[
+			"Column_Dirty",
+			"Dirty",
+			"要更新"
+		],
+		[
+			"Column_FirstName",
+			"First Name",
+			"名"
+		],
+		[
+			"Column_LastName",
+			"Last Name",
+			"姓"
+		],
+		[
+			"Column_Program",
+			"Program",
+			"専攻"
+		],
+		[
+			"Column_Bio",
+			"Bio",
+			"経歴"
+		],
+		[
+			"Column_Yes",
+			"Yes",
+			"はい"
+		],
+		[
+			"Alert_EnterQuery",
+			"Please enter a search query.",
+			"検索クエリを入力してください。"
+		],
+		[
+			"Alert_NoDefinition",
+			"No definition found. Check Settings/embeddings.json.",
+			"エンベディング定義が見つかりません。Settings/embeddings.jsonを確認してください。"
+		],
+		[
+			"Alert_ErrorTemplate",
+			"Error: {1}",
+			"エラー: {1}"
+		],
+		[
+			"Alert_NoVector",
+			"Error: no vector returned for the query.",
+			"エラー: クエリのベクトルが返されませんでした。"
+		],
+		[
+			"Msg_NoResult",
+			"No result",
+			"該当なし"
+		],
+		[
+			"Alert_SelectStudent",
+			"Please select a student in the list first.",
+			"先にリストで学生を選択してください。"
+		],
+		[
+			"Alert_SaveFailed",
+			"The student could not be saved: {1}",
+			"学生を保存できませんでした: {1}"
+		],
+		[
+			"Report_Done",
+			"Done",
+			"完了"
+		],
+		[
+			"Report_Updated",
+			"Entities updated : {1}",
+			"更新されたエンティティ : {1}"
+		],
+		[
+			"Report_Skipped",
+			"Entities skipped : {1}",
+			"スキップされたエンティティ : {1}"
+		],
+		[
+			"Report_Tokens",
+			"Tokens used      : {1}",
+			"使用トークン          : {1}"
+		],
+		[
+			"Report_APICalls",
+			"API calls        : {1}",
+			"API呼び出し            : {1}"
+		],
+		[
+			"Report_Duration",
+			"Duration         : {1} ms",
+			"所要時間              : {1} ms"
+		],
+		[
+			"Report_Error",
+			"Error",
+			"エラー"
+		],
+		[
+			"Info_Tab1",
+			"Overview",
+			"概要"
+		],
+		[
+			"Info_Tab2",
+			"Configure AI settings",
+			"AI設定"
+		],
+		[
+			"Info_Tab3",
+			"Configure Embeddings",
+			"エンベディング設定"
+		],
+		[
+			"Info_Tab4",
+			"Generate Embeddings",
+			"ベクトル生成"
+		],
+		[
+			"Info_Tab5",
+			"Update Records",
+			"レコード更新"
+		],
+		[
+			"Info_Tab6",
+			"Search Embeddings",
+			"ベクトル検索"
+		],
+		[
+			"Search_Placeholder",
+			"Search examples…",
+			"検索例…"
+		],
+		[
+			"Search_Sample1",
+			"AI research",
+			"AI研究"
+		],
+		[
+			"Search_Sample2",
+			"network security",
+			"ネットワークセキュリティ"
+		],
+		[
+			"Search_Sample3",
+			"loves databases",
+			"データベースが好き"
+		],
+		[
+			"Search_Sample4",
+			"user experience",
+			"ユーザー体験"
+		],
+		[
+			"Search_Sample5",
+			"predictive analytics",
+			"予測分析"
+		],
+		[
+			"Btn_Regenerate",
+			"Regenerate sample data",
+			"サンプルデータを再生成"
+		],
+		[
+			"Tip_Regenerate",
+			"Drop all students and recreate them in the current UI language",
+			"全学生を削除し、現在のUI言語で再作成します"
+		],
+		[
+			"Confirm_Regenerate",
+			"Drop all students and recreate the sample data?\rVectors must be regenerated afterwards.",
+			"全学生を削除してサンプルデータを再作成しますか？\rベクトルは後で再生成が必要です。"
+		],
+		[
+			"Msg_Regenerated",
+			"{1} students created. Regenerate the vectors before searching.",
+			"{1} 人の学生を作成しました。検索の前にベクトルを再生成してください。"
+		]
 	],
 	"toolbar": [
-		["Tip_Accept", "Accept", "受け入れる"],
-		["Tip_FirstRecord", "First Record", "最初のレコード"],
-		["Tip_PreviousRecord", "Previous Record", "前のレコード"],
-		["Tip_NextRecord", "Next Record", "次のレコード"],
-		["Tip_LastRecord", "Last Record", "最後のレコード"],
-		["Tip_DeleteRecord", "Delete Record", "レコードを削除"],
-		["Tip_Cancel", "Cancel", "キャンセル"],
-		["Tip_AddRecord", "Add Record", "レコードを追加"],
-		["Tip_DeleteSelection", "Delete Selection", "選択レコードを削除"],
-		["Tip_ShowAll", "Show All", "すべて表示"],
-		["Tip_ShowSubset", "Show Subset", "サブセットを表示"],
-		["Tip_Query", "Query", "クエリ"],
-		["Tip_OrderBy", "Order By", "並べ替え"],
-		["Tip_PageNumber", "Page number:", "ページ番号:"],
-		["Tip_TabTitle", "Tab Title:", "タイトル:"],
-		["Tip_Page", "Page:", "ページ:"],
-		["Tip_Title", "Title", "タイトル"],
-		["Tip_Description", "Description", "説明"]
+		[
+			"Tip_Accept",
+			"Accept",
+			"受け入れる"
+		],
+		[
+			"Tip_FirstRecord",
+			"First Record",
+			"最初のレコード"
+		],
+		[
+			"Tip_PreviousRecord",
+			"Previous Record",
+			"前のレコード"
+		],
+		[
+			"Tip_NextRecord",
+			"Next Record",
+			"次のレコード"
+		],
+		[
+			"Tip_LastRecord",
+			"Last Record",
+			"最後のレコード"
+		],
+		[
+			"Tip_DeleteRecord",
+			"Delete Record",
+			"レコードを削除"
+		],
+		[
+			"Tip_Cancel",
+			"Cancel",
+			"キャンセル"
+		],
+		[
+			"Tip_AddRecord",
+			"Add Record",
+			"レコードを追加"
+		],
+		[
+			"Tip_DeleteSelection",
+			"Delete Selection",
+			"選択レコードを削除"
+		],
+		[
+			"Tip_ShowAll",
+			"Show All",
+			"すべて表示"
+		],
+		[
+			"Tip_ShowSubset",
+			"Show Subset",
+			"サブセットを表示"
+		],
+		[
+			"Tip_Query",
+			"Query",
+			"クエリ"
+		],
+		[
+			"Tip_OrderBy",
+			"Order By",
+			"並べ替え"
+		],
+		[
+			"Tip_PageNumber",
+			"Page number:",
+			"ページ番号:"
+		],
+		[
+			"Tip_TabTitle",
+			"Tab Title:",
+			"タイトル:"
+		],
+		[
+			"Tip_Page",
+			"Page:",
+			"ページ:"
+		],
+		[
+			"Tip_Title",
+			"Title",
+			"タイトル"
+		],
+		[
+			"Tip_Description",
+			"Description",
+			"説明"
+		]
 	]
 }
