@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="messages" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="Splash_Title" resname="Splash_Title">
+				<source>Generate and use AI embedding vectors&#13;with the 4D Embedding Studio component</source>
+				<target>4D Embedding Studioコンポーネントで&#13;AIエンベディングベクトルを生成・活用</target>
+			</trans-unit>
+			<trans-unit id="Splash_Heading" resname="Splash_Heading">
+				<source>How do I…</source>
+				<target>How do I…</target>
+			</trans-unit>
+			<trans-unit id="Splash_InfoValue" resname="Splash_InfoValue">
+				<source>AI Embedding feature</source>
+				<target>AIエンベディング機能</target>
+			</trans-unit>
+			<trans-unit id="Splash_VersionLabel" resname="Splash_VersionLabel">
+				<source>Version:</source>
+				<target>バージョン:</target>
+			</trans-unit>
+			<trans-unit id="Splash_BlogLabel" resname="Splash_BlogLabel">
+				<source>Blog:</source>
+				<target>ブログ:</target>
+			</trans-unit>
+			<trans-unit id="Splash_InfoLabel" resname="Splash_InfoLabel">
+				<source>Info:</source>
+				<target>情報:</target>
+			</trans-unit>
+			<trans-unit id="Splash_VersionAbove" resname="Splash_VersionAbove">
+				<source>{version} and above</source>
+				<target>{version} 以上が必要</target>
+			</trans-unit>
+			<trans-unit id="Splash_ErrorMain" resname="Splash_ErrorMain">
+				<source>Sorry, this "How do I" (HDI) example must&#13;be used with a newer version of 4D&#13;({version} and above)</source>
+				<target>申し訳ありませんが、このHDI例は&#13;より新しいバージョンの4Dが必要です&#13;（{version} 以上）</target>
+			</trans-unit>
+			<trans-unit id="Splash_ErrorSub" resname="Splash_ErrorSub">
+				<source>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+				<target>このバージョンのデザインモードからこのHDIを開かないでください。開くと、機能が不足しているためフォームやメソッドが変更される可能性があります。</target>
+			</trans-unit>
+			<trans-unit id="Splash_ButtonDemo" resname="Splash_ButtonDemo">
+				<source>Demo</source>
+				<target>デモ開始</target>
+			</trans-unit>
+			<trans-unit id="Splash_ButtonQuit" resname="Splash_ButtonQuit">
+				<source>Quit 4D</source>
+				<target>4Dを終了</target>
+			</trans-unit>
+			<trans-unit id="HDI2_WindowTitle" resname="HDI2_WindowTitle">
+				<source>AI Embedding Vectors</source>
+				<target>AIエンベディングベクトル</target>
+			</trans-unit>
+			<trans-unit id="HDI2_MissingComponents" resname="HDI2_MissingComponents">
+				<source>Sorry, this “How do I” (HDI) example demonstrates an embedding feature.&#13;You must have the 4D Embedding Studio and 4D AIKit components to use this demo.</source>
+				<target>このHDI例はエンベディング機能を紹介しています。&#13;使用するには4D Embedding Studioと4D AIKitコンポーネントが必要です。</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonClose" resname="HDI2_ButtonClose">
+				<source>Close</source>
+				<target>閉じる</target>
+			</trans-unit>
+			<trans-unit id="Tip_Close" resname="Tip_Close">
+				<source>Close the demo and return to Design mode</source>
+				<target>デモを閉じてデザインモードに戻ります</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonOpenSettings" resname="HDI2_ButtonOpenSettings">
+				<source>Open 4D AI Settings</source>
+				<target>4D AI設定を開く</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonGenerateInvalid" resname="HDI2_ButtonGenerateInvalid">
+				<source>Generate invalid vectors</source>
+				<target>未更新のベクトルを生成</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonGenerateAll" resname="HDI2_ButtonGenerateAll">
+				<source>Generate all vectors</source>
+				<target>全ベクトルを生成</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelResults" resname="HDI2_LabelResults">
+				<source>Results:</source>
+				<target>結果:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonSave" resname="HDI2_ButtonSave">
+				<source>Save</source>
+				<target>保存</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelSearch" resname="HDI2_LabelSearch">
+				<source>Search:</source>
+				<target>検索:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonSearch" resname="HDI2_ButtonSearch">
+				<source>Search</source>
+				<target>検索</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonClear" resname="HDI2_ButtonClear">
+				<source>Clear search</source>
+				<target>検索をクリア</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CheckIncludeDirty" resname="HDI2_CheckIncludeDirty">
+				<source>Include dirty vectors</source>
+				<target>未更新のベクトルを含める</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelThreshold" resname="HDI2_LabelThreshold">
+				<source>Threshold:</source>
+				<target>しきい値:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ThresholdHint" resname="HDI2_ThresholdHint">
+				<source>Depends on the model.</source>
+				<target>モデルによって異なります。</target>
+			</trans-unit>
+			<trans-unit id="Column_ID" resname="Column_ID">
+				<source>ID</source>
+				<target>ID</target>
+			</trans-unit>
+			<trans-unit id="Column_Dirty" resname="Column_Dirty">
+				<source>Dirty</source>
+				<target>要更新</target>
+			</trans-unit>
+			<trans-unit id="Column_FirstName" resname="Column_FirstName">
+				<source>First Name</source>
+				<target>名</target>
+			</trans-unit>
+			<trans-unit id="Column_LastName" resname="Column_LastName">
+				<source>Last Name</source>
+				<target>姓</target>
+			</trans-unit>
+			<trans-unit id="Column_Program" resname="Column_Program">
+				<source>Program</source>
+				<target>専攻</target>
+			</trans-unit>
+			<trans-unit id="Column_Bio" resname="Column_Bio">
+				<source>Bio</source>
+				<target>経歴</target>
+			</trans-unit>
+			<trans-unit id="Column_Yes" resname="Column_Yes">
+				<source>Yes</source>
+				<target>はい</target>
+			</trans-unit>
+			<trans-unit id="Alert_EnterQuery" resname="Alert_EnterQuery">
+				<source>Please enter a search query.</source>
+				<target>検索クエリを入力してください。</target>
+			</trans-unit>
+			<trans-unit id="Alert_NoDefinition" resname="Alert_NoDefinition">
+				<source>No definition found. Check Settings/embeddings.json.</source>
+				<target>エンベディング定義が見つかりません。Settings/embeddings.jsonを確認してください。</target>
+			</trans-unit>
+			<trans-unit id="Alert_ErrorTemplate" resname="Alert_ErrorTemplate">
+				<source>Error: {1}</source>
+				<target>エラー: {1}</target>
+			</trans-unit>
+			<trans-unit id="Alert_NoVector" resname="Alert_NoVector">
+				<source>Error: no vector returned for the query.</source>
+				<target>エラー: クエリのベクトルが返されませんでした。</target>
+			</trans-unit>
+			<trans-unit id="Msg_NoResult" resname="Msg_NoResult">
+				<source>No result</source>
+				<target>該当なし</target>
+			</trans-unit>
+			<trans-unit id="Alert_SelectStudent" resname="Alert_SelectStudent">
+				<source>Please select a student in the list first.</source>
+				<target>先にリストで学生を選択してください。</target>
+			</trans-unit>
+			<trans-unit id="Alert_SaveFailed" resname="Alert_SaveFailed">
+				<source>The student could not be saved: {1}</source>
+				<target>学生を保存できませんでした: {1}</target>
+			</trans-unit>
+			<trans-unit id="Report_Done" resname="Report_Done">
+				<source>Done</source>
+				<target>完了</target>
+			</trans-unit>
+			<trans-unit id="Report_Updated" resname="Report_Updated">
+				<source>Entities updated : {1}</source>
+				<target>更新されたエンティティ : {1}</target>
+			</trans-unit>
+			<trans-unit id="Report_Skipped" resname="Report_Skipped">
+				<source>Entities skipped : {1}</source>
+				<target>スキップされたエンティティ : {1}</target>
+			</trans-unit>
+			<trans-unit id="Report_Tokens" resname="Report_Tokens">
+				<source>Tokens used      : {1}</source>
+				<target>使用トークン          : {1}</target>
+			</trans-unit>
+			<trans-unit id="Report_APICalls" resname="Report_APICalls">
+				<source>API calls        : {1}</source>
+				<target>API呼び出し            : {1}</target>
+			</trans-unit>
+			<trans-unit id="Report_Duration" resname="Report_Duration">
+				<source>Duration         : {1} ms</source>
+				<target>所要時間              : {1} ms</target>
+			</trans-unit>
+			<trans-unit id="Report_Error" resname="Report_Error">
+				<source>Error</source>
+				<target>エラー</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab1" resname="Info_Tab1">
+				<source>Overview</source>
+				<target>概要</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab2" resname="Info_Tab2">
+				<source>Configure AI settings</source>
+				<target>AI設定</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab3" resname="Info_Tab3">
+				<source>Configure Embeddings</source>
+				<target>エンベディング設定</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab4" resname="Info_Tab4">
+				<source>Generate Embeddings</source>
+				<target>ベクトル生成</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab5" resname="Info_Tab5">
+				<source>Update Records</source>
+				<target>レコード更新</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab6" resname="Info_Tab6">
+				<source>Search Embeddings</source>
+				<target>ベクトル検索</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

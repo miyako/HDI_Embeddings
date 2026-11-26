@@ -34,10 +34,10 @@ Case of
 		// Setup HDI options and information
 		$options:=New object:C1471
 		
-		$options.title:="Generate and use AI embedding vectors"+$cr+"with the 4D Embedding Studio component"
+		$options.title:=Localized string("Splash_Title")
 		
 		$options.blog:="blog.4d.com"
-		$options.info:="AI Embedding feature"
+		$options.info:=Localized string("Splash_InfoValue")
 		
 		$options.minimumVersion:="2150"  // Format: 1660 means 16R6, 2130 means 21R3
 		

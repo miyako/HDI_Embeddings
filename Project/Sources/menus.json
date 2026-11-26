@@ -2,7 +2,7 @@
 	"bars": [
 		{
 			"id": 1,
-			"name": "Menu Bar #1",
+			"name": "Main",
 			"items": [
 				{
 					"link": 32001
@@ -19,17 +19,16 @@
 	"menus": [
 		{
 			"link": 32001,
-			"title": ":xliff:CommonMenuFile",
+			"title": ":xliff:MenuDemo",
 			"items": [
 				{
-					"title": "Demo",
+					"title": ":xliff:MenuItemDemo",
 					"method": "00_Start",
 					"shortcutAccel": true,
 					"shortcutKey": "k"
 				},
 				{
-					"title": ":xliff:CommonMenuItemQuit",
-					"method": "m_Quit",
+					"title": ":xliff:MenuItemQuit",
 					"shortcutAccel": true,
 					"shortcutKey": "Q",
 					"action": "quit"
@@ -38,10 +37,10 @@
 		},
 		{
 			"link": 32002,
-			"title": ":xliff:CommonMenuEdit",
+			"title": ":xliff:MenuEdit",
 			"items": [
 				{
-					"title": ":xliff:CommonMenuItemUndo",
+					"title": ":xliff:MenuItemUndo",
 					"shortcutAccel": true,
 					"shortcutKey": "Z",
 					"action": "undo"
@@ -51,29 +50,29 @@
 					"isSeparator": true
 				},
 				{
-					"title": ":xliff:CommonMenuItemCut",
+					"title": ":xliff:MenuItemCut",
 					"shortcutAccel": true,
 					"shortcutKey": "X",
 					"action": "cut"
 				},
 				{
-					"title": ":xliff:CommonMenuItemCopy",
+					"title": ":xliff:MenuItemCopy",
 					"shortcutAccel": true,
 					"shortcutKey": "C",
 					"action": "copy"
 				},
 				{
-					"title": ":xliff:CommonMenuItemPaste",
+					"title": ":xliff:MenuItemPaste",
 					"shortcutAccel": true,
 					"shortcutKey": "V",
 					"action": "paste"
 				},
 				{
-					"title": ":xliff:CommonMenuItemClear",
+					"title": ":xliff:MenuItemClear",
 					"action": "clear"
 				},
 				{
-					"title": ":xliff:CommonMenuItemSelectAll",
+					"title": ":xliff:MenuItemSelectAll",
 					"shortcutAccel": true,
 					"shortcutKey": "A",
 					"action": "selectAll"
@@ -83,103 +82,18 @@
 					"isSeparator": true
 				},
 				{
-					"title": ":xliff:CommonMenuItemShowClipboard",
+					"title": ":xliff:MenuItemShowClipboard",
 					"action": "showClipboard"
 				}
 			]
 		},
 		{
 			"link": 32003,
-			"title": ":xliff:CommonMenuMode",
+			"title": ":xliff:MenuMode",
 			"items": [
 				{
-					"title": ":xliff:CommonMenuItemDesign",
+					"title": ":xliff:MenuItemDesign",
 					"action": "design"
-				}
-			]
-		},
-		{
-			"link": 32006,
-			"title": "Menu 4",
-			"items": [
-				{
-					"title": "Item 1",
-					"method": "shared_method_visible"
-				}
-			]
-		},
-		{
-			"link": 32005,
-			"title": ":xliff:CommonMenuMode",
-			"items": [
-				{
-					"title": ":xliff:CommonMenuItemDesign",
-					"action": "design"
-				}
-			]
-		},
-		{
-			"link": 32000,
-			"title": ":xliff:CommonMenuFile",
-			"items": [
-				{
-					"title": ":xliff:CommonMenuItemQuit",
-					"shortcutAccel": true,
-					"shortcutKey": "Q",
-					"action": "quit"
-				}
-			]
-		},
-		{
-			"link": 32004,
-			"title": ":xliff:CommonMenuEdit",
-			"items": [
-				{
-					"title": ":xliff:CommonMenuItemUndo",
-					"shortcutAccel": true,
-					"shortcutKey": "Z",
-					"action": "undo"
-				},
-				{
-					"title": "(-",
-					"isSeparator": true
-				},
-				{
-					"title": ":xliff:CommonMenuItemCut",
-					"icon": "pictlib:2052",
-					"shortcutAccel": true,
-					"shortcutKey": "X",
-					"action": "cut"
-				},
-				{
-					"title": ":xliff:CommonMenuItemCopy",
-					"shortcutAccel": true,
-					"shortcutKey": "C",
-					"action": "copy"
-				},
-				{
-					"title": ":xliff:CommonMenuItemPaste",
-					"shortcutAccel": true,
-					"shortcutKey": "V",
-					"action": "paste"
-				},
-				{
-					"title": ":xliff:CommonMenuItemClear",
-					"action": "clear"
-				},
-				{
-					"title": ":xliff:CommonMenuItemSelectAll",
-					"shortcutAccel": true,
-					"shortcutKey": "A",
-					"action": "selectAll"
-				},
-				{
-					"title": "(-",
-					"isSeparator": true
-				},
-				{
-					"title": ":xliff:CommonMenuItemShowClipboard",
-					"action": "showClipboard"
 				}
 			]
 		}

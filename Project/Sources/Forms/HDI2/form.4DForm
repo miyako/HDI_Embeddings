@@ -1,12 +1,13 @@
 {
 	"destination": "detailScreen",
+	"windowTitle": ":xliff:HDI2_WindowTitle",
 	"windowMinWidth": 1200,
 	"windowMaxWidth": 32000,
 	"windowMinHeight": 800,
 	"windowMaxHeight": 32000,
 	"width": 1200,
 	"height": 800,
-	"menuBar": "Menu Bar #1",
+	"menuBar": "Main",
 	"markerHeader": 15,
 	"markerBody": 200,
 	"markerBreak": 220,
@@ -48,11 +49,9 @@
 					"height": 24,
 					"sizingX": "move",
 					"sizingY": "move",
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/OK"
-					},
+					"tooltip": ":xliff:Tip_Close",
 					"shortcutKey": "[Enter]",
-					"text": "OK",
+					"text": ":xliff:HDI2_ButtonClose",
 					"class": "Buttons_13",
 					"defaultButton": true,
 					"events": [
@@ -102,7 +101,7 @@
 				},
 				"Text": {
 					"type": "text",
-					"text": "Sorry, this “How do I” (HDI) example demonstrates an embedding feature.\rYou must have the 4D Embedding Studio and 4D AIKit components to use this demo.",
+					"text": ":xliff:HDI2_MissingComponents",
 					"top": 654,
 					"left": 20,
 					"width": 1160,
@@ -148,7 +147,7 @@
 					"left": 509,
 					"width": 180,
 					"height": 26,
-					"text": "Open 4D AI Settings",
+					"text": ":xliff:HDI2_ButtonOpenSettings",
 					"class": "Buttons_13",
 					"events": [
 						"onClick"
@@ -263,7 +262,7 @@
 					"left": 273,
 					"width": 180,
 					"height": 25,
-					"text": "Generate invalid vectors",
+					"text": ":xliff:HDI2_ButtonGenerateInvalid",
 					"class": "Buttons_13",
 					"events": [
 						"onClick"
@@ -279,7 +278,7 @@
 					"width": 488,
 					"height": 16,
 					"sizingX": "fixed",
-					"text": "Results:",
+					"text": ":xliff:HDI2_LabelResults",
 					"fontWeight": "bold",
 					"sizingY": "move"
 				},
@@ -304,7 +303,7 @@
 					"left": 60,
 					"width": 180,
 					"height": 25,
-					"text": "Generate all vectors",
+					"text": ":xliff:HDI2_ButtonGenerateAll",
 					"class": "Buttons_13",
 					"events": [
 						"onClick"
@@ -366,7 +365,7 @@
 							"width": 60,
 							"enterable": false,
 							"header": {
-								"text": "ID",
+								"text": ":xliff:Column_ID",
 								"name": "Object1"
 							},
 							"footer": {
@@ -378,14 +377,14 @@
 						{
 							"header": {
 								"name": "Header2",
-								"text": "Dirty"
+								"text": ":xliff:Column_Dirty"
 							},
 							"name": "Column2",
 							"footer": {
 								"name": "Footer2"
 							},
 							"width": 120,
-							"dataSource": "Choose:C955(This:C1470.student_vector_dirty; \"Yes\"; \"\")",
+							"dataSource": "Choose:C955(This:C1470.student_vector_dirty; Localized string(\"Column_Yes\"); \"\")",
 							"dataSourceTypeHint": "text",
 							"textAlign": "center",
 							"wordwrap": "normal",
@@ -398,7 +397,7 @@
 							"width": 120,
 							"enterable": true,
 							"header": {
-								"text": "First Name",
+								"text": ":xliff:Column_FirstName",
 								"name": "11"
 							},
 							"footer": {
@@ -413,7 +412,7 @@
 							"width": 120,
 							"enterable": true,
 							"header": {
-								"text": "Last Name",
+								"text": ":xliff:Column_LastName",
 								"name": "13"
 							},
 							"footer": {
@@ -425,7 +424,7 @@
 						{
 							"header": {
 								"name": "Header3",
-								"text": "Program"
+								"text": ":xliff:Column_Program"
 							},
 							"name": "Column3",
 							"dataSource": "This:C1470.program",
@@ -449,7 +448,7 @@
 				},
 				"Text1": {
 					"type": "text",
-					"text": "First Name",
+					"text": ":xliff:Column_FirstName",
 					"top": 298,
 					"left": 750,
 					"width": 81,
@@ -468,7 +467,7 @@
 				},
 				"Text2": {
 					"type": "text",
-					"text": "Last Name",
+					"text": ":xliff:Column_LastName",
 					"top": 334,
 					"left": 750,
 					"width": 81,
@@ -487,7 +486,7 @@
 				},
 				"Text3": {
 					"type": "text",
-					"text": "Program",
+					"text": ":xliff:Column_Program",
 					"top": 370,
 					"left": 750,
 					"width": 81,
@@ -506,7 +505,7 @@
 				},
 				"Text4": {
 					"type": "text",
-					"text": "Biography",
+					"text": ":xliff:Column_Bio",
 					"top": 406,
 					"left": 750,
 					"width": 81,
@@ -515,7 +514,7 @@
 				},
 				"Button": {
 					"type": "button",
-					"text": "Save",
+					"text": ":xliff:HDI2_ButtonSave",
 					"top": 619,
 					"left": 1062,
 					"width": 78,
@@ -557,7 +556,7 @@
 					"left": 60,
 					"width": 60,
 					"height": 16,
-					"text": "Search:"
+					"text": ":xliff:HDI2_LabelSearch"
 				},
 				"InputSearch": {
 					"type": "input",
@@ -577,7 +576,7 @@
 					"width": 140,
 					"height": 23,
 					"sizingX": "move",
-					"text": "Search",
+					"text": ":xliff:HDI2_ButtonSearch",
 					"events": [
 						"onClick"
 					],
@@ -605,14 +604,14 @@
 						{
 							"header": {
 								"name": "Header1",
-								"text": "Dirty"
+								"text": ":xliff:Column_Dirty"
 							},
 							"name": "Column1",
 							"footer": {
 								"name": "Footer1"
 							},
 							"width": 60,
-							"dataSource": "Choose:C955(This:C1470.student_vector_dirty; \"Yes\"; \"\")",
+							"dataSource": "Choose:C955(This:C1470.student_vector_dirty; Localized string(\"Column_Yes\"); \"\")",
 							"dataSourceTypeHint": "text",
 							"textAlign": "center",
 							"minWidth": 60,
@@ -624,7 +623,7 @@
 							"width": 60,
 							"enterable": false,
 							"header": {
-								"text": "ID",
+								"text": ":xliff:Column_ID",
 								"name": "Object"
 							},
 							"footer": {
@@ -639,7 +638,7 @@
 							"width": 120,
 							"enterable": true,
 							"header": {
-								"text": "First Name",
+								"text": ":xliff:Column_FirstName",
 								"name": "2"
 							},
 							"footer": {
@@ -654,7 +653,7 @@
 							"width": 120,
 							"enterable": true,
 							"header": {
-								"text": "Last Name",
+								"text": ":xliff:Column_LastName",
 								"name": "4"
 							},
 							"footer": {
@@ -669,7 +668,7 @@
 							"width": 120,
 							"enterable": true,
 							"header": {
-								"text": "Program",
+								"text": ":xliff:Column_Program",
 								"name": "6"
 							},
 							"footer": {
@@ -684,7 +683,7 @@
 							"width": 120,
 							"enterable": true,
 							"header": {
-								"text": "Bio",
+								"text": ":xliff:Column_Bio",
 								"name": "8"
 							},
 							"footer": {
@@ -698,7 +697,7 @@
 				},
 				"Check Box1": {
 					"type": "checkbox",
-					"text": "Include dirty vectors",
+					"text": ":xliff:HDI2_CheckIncludeDirty",
 					"top": 401,
 					"left": 60,
 					"width": 200,
@@ -711,7 +710,7 @@
 				},
 				"LabelThreshold": {
 					"type": "text",
-					"text": "Threshold:",
+					"text": ":xliff:HDI2_LabelThreshold",
 					"top": 403,
 					"left": 300,
 					"width": 70,
@@ -731,7 +730,7 @@
 				},
 				"TextThresholdHint": {
 					"type": "text",
-					"text": "Depends on the model.",
+					"text": ":xliff:HDI2_ThresholdHint",
 					"top": 403,
 					"left": 450,
 					"width": 690,
@@ -744,7 +743,7 @@
 					"width": 140,
 					"height": 23,
 					"sizingX": "move",
-					"text": "Clear search",
+					"text": ":xliff:HDI2_ButtonClear",
 					"events": [
 						"onClick"
 					],

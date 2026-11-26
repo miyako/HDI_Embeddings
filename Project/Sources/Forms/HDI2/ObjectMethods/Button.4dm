@@ -1,15 +1,15 @@
 var $status : Object
 
-If (Form event code:C388=On Clicked:K2:4)
+If (FORM Event.code=On Clicked)
 	
-	If (Form:C1466.currentStudent=Null:C1517)
-		ALERT:C41("Please select a student in the list first.")
+	If (Form.currentStudent=Null)
+		ALERT(Localized string("Alert_SelectStudent"))
 		return 
 	End if 
 	
-	$status:=Form:C1466.currentStudent.save()
-	If (Not:C34($status.success))
-		ALERT:C41("The student could not be saved: "+String:C10($status.statusText))
+	$status:=Form.currentStudent.save()
+	If (Not($status.success))
+		ALERT(Replace string(Localized string("Alert_SaveFailed"); "{1}"; String($status.statusText)))
 	End if 
 	
 End if 

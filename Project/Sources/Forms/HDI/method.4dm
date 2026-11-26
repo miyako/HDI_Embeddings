@@ -104,7 +104,7 @@ Case of
 		
 		If (Form:C1466.quit=True:C214)
 			
-			OBJECT SET TITLE:C194(*; "BtnDemo"; "Quit 4D")
+			OBJECT SET TITLE(*; "BtnDemo"; Localized string("Splash_ButtonQuit"))
 			
 			OBJECT SET TITLE:C194(*; "ErrorMainText"; $maintext)
 			OBJECT SET TITLE:C194(*; "ErrorSubText"; $subtext)

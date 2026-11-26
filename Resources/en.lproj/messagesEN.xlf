@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="messages" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="Splash_Title" resname="Splash_Title">
+				<source>Generate and use AI embedding vectors&#13;with the 4D Embedding Studio component</source>
+				<target>Generate and use AI embedding vectors&#13;with the 4D Embedding Studio component</target>
+			</trans-unit>
+			<trans-unit id="Splash_Heading" resname="Splash_Heading">
+				<source>How do I…</source>
+				<target>How do I…</target>
+			</trans-unit>
+			<trans-unit id="Splash_InfoValue" resname="Splash_InfoValue">
+				<source>AI Embedding feature</source>
+				<target>AI Embedding feature</target>
+			</trans-unit>
+			<trans-unit id="Splash_VersionLabel" resname="Splash_VersionLabel">
+				<source>Version:</source>
+				<target>Version:</target>
+			</trans-unit>
+			<trans-unit id="Splash_BlogLabel" resname="Splash_BlogLabel">
+				<source>Blog:</source>
+				<target>Blog:</target>
+			</trans-unit>
+			<trans-unit id="Splash_InfoLabel" resname="Splash_InfoLabel">
+				<source>Info:</source>
+				<target>Info:</target>
+			</trans-unit>
+			<trans-unit id="Splash_VersionAbove" resname="Splash_VersionAbove">
+				<source>{version} and above</source>
+				<target>{version} and above</target>
+			</trans-unit>
+			<trans-unit id="Splash_ErrorMain" resname="Splash_ErrorMain">
+				<source>Sorry, this "How do I" (HDI) example must&#13;be used with a newer version of 4D&#13;({version} and above)</source>
+				<target>Sorry, this "How do I" (HDI) example must&#13;be used with a newer version of 4D&#13;({version} and above)</target>
+			</trans-unit>
+			<trans-unit id="Splash_ErrorSub" resname="Splash_ErrorSub">
+				<source>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+				<target>Do not attempt to open this HDI in design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
+			</trans-unit>
+			<trans-unit id="Splash_ButtonDemo" resname="Splash_ButtonDemo">
+				<source>Demo</source>
+				<target>Demo</target>
+			</trans-unit>
+			<trans-unit id="Splash_ButtonQuit" resname="Splash_ButtonQuit">
+				<source>Quit 4D</source>
+				<target>Quit 4D</target>
+			</trans-unit>
+			<trans-unit id="HDI2_WindowTitle" resname="HDI2_WindowTitle">
+				<source>AI Embedding Vectors</source>
+				<target>AI Embedding Vectors</target>
+			</trans-unit>
+			<trans-unit id="HDI2_MissingComponents" resname="HDI2_MissingComponents">
+				<source>Sorry, this “How do I” (HDI) example demonstrates an embedding feature.&#13;You must have the 4D Embedding Studio and 4D AIKit components to use this demo.</source>
+				<target>Sorry, this “How do I” (HDI) example demonstrates an embedding feature.&#13;You must have the 4D Embedding Studio and 4D AIKit components to use this demo.</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonClose" resname="HDI2_ButtonClose">
+				<source>Close</source>
+				<target>Close</target>
+			</trans-unit>
+			<trans-unit id="Tip_Close" resname="Tip_Close">
+				<source>Close the demo and return to Design mode</source>
+				<target>Close the demo and return to Design mode</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonOpenSettings" resname="HDI2_ButtonOpenSettings">
+				<source>Open 4D AI Settings</source>
+				<target>Open 4D AI Settings</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonGenerateInvalid" resname="HDI2_ButtonGenerateInvalid">
+				<source>Generate invalid vectors</source>
+				<target>Generate invalid vectors</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonGenerateAll" resname="HDI2_ButtonGenerateAll">
+				<source>Generate all vectors</source>
+				<target>Generate all vectors</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelResults" resname="HDI2_LabelResults">
+				<source>Results:</source>
+				<target>Results:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonSave" resname="HDI2_ButtonSave">
+				<source>Save</source>
+				<target>Save</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelSearch" resname="HDI2_LabelSearch">
+				<source>Search:</source>
+				<target>Search:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonSearch" resname="HDI2_ButtonSearch">
+				<source>Search</source>
+				<target>Search</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ButtonClear" resname="HDI2_ButtonClear">
+				<source>Clear search</source>
+				<target>Clear search</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CheckIncludeDirty" resname="HDI2_CheckIncludeDirty">
+				<source>Include dirty vectors</source>
+				<target>Include dirty vectors</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelThreshold" resname="HDI2_LabelThreshold">
+				<source>Threshold:</source>
+				<target>Threshold:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ThresholdHint" resname="HDI2_ThresholdHint">
+				<source>Depends on the model.</source>
+				<target>Depends on the model.</target>
+			</trans-unit>
+			<trans-unit id="Column_ID" resname="Column_ID">
+				<source>ID</source>
+				<target>ID</target>
+			</trans-unit>
+			<trans-unit id="Column_Dirty" resname="Column_Dirty">
+				<source>Dirty</source>
+				<target>Dirty</target>
+			</trans-unit>
+			<trans-unit id="Column_FirstName" resname="Column_FirstName">
+				<source>First Name</source>
+				<target>First Name</target>
+			</trans-unit>
+			<trans-unit id="Column_LastName" resname="Column_LastName">
+				<source>Last Name</source>
+				<target>Last Name</target>
+			</trans-unit>
+			<trans-unit id="Column_Program" resname="Column_Program">
+				<source>Program</source>
+				<target>Program</target>
+			</trans-unit>
+			<trans-unit id="Column_Bio" resname="Column_Bio">
+				<source>Bio</source>
+				<target>Bio</target>
+			</trans-unit>
+			<trans-unit id="Column_Yes" resname="Column_Yes">
+				<source>Yes</source>
+				<target>Yes</target>
+			</trans-unit>
+			<trans-unit id="Alert_EnterQuery" resname="Alert_EnterQuery">
+				<source>Please enter a search query.</source>
+				<target>Please enter a search query.</target>
+			</trans-unit>
+			<trans-unit id="Alert_NoDefinition" resname="Alert_NoDefinition">
+				<source>No definition found. Check Settings/embeddings.json.</source>
+				<target>No definition found. Check Settings/embeddings.json.</target>
+			</trans-unit>
+			<trans-unit id="Alert_ErrorTemplate" resname="Alert_ErrorTemplate">
+				<source>Error: {1}</source>
+				<target>Error: {1}</target>
+			</trans-unit>
+			<trans-unit id="Alert_NoVector" resname="Alert_NoVector">
+				<source>Error: no vector returned for the query.</source>
+				<target>Error: no vector returned for the query.</target>
+			</trans-unit>
+			<trans-unit id="Msg_NoResult" resname="Msg_NoResult">
+				<source>No result</source>
+				<target>No result</target>
+			</trans-unit>
+			<trans-unit id="Alert_SelectStudent" resname="Alert_SelectStudent">
+				<source>Please select a student in the list first.</source>
+				<target>Please select a student in the list first.</target>
+			</trans-unit>
+			<trans-unit id="Alert_SaveFailed" resname="Alert_SaveFailed">
+				<source>The student could not be saved: {1}</source>
+				<target>The student could not be saved: {1}</target>
+			</trans-unit>
+			<trans-unit id="Report_Done" resname="Report_Done">
+				<source>Done</source>
+				<target>Done</target>
+			</trans-unit>
+			<trans-unit id="Report_Updated" resname="Report_Updated">
+				<source>Entities updated : {1}</source>
+				<target>Entities updated : {1}</target>
+			</trans-unit>
+			<trans-unit id="Report_Skipped" resname="Report_Skipped">
+				<source>Entities skipped : {1}</source>
+				<target>Entities skipped : {1}</target>
+			</trans-unit>
+			<trans-unit id="Report_Tokens" resname="Report_Tokens">
+				<source>Tokens used      : {1}</source>
+				<target>Tokens used      : {1}</target>
+			</trans-unit>
+			<trans-unit id="Report_APICalls" resname="Report_APICalls">
+				<source>API calls        : {1}</source>
+				<target>API calls        : {1}</target>
+			</trans-unit>
+			<trans-unit id="Report_Duration" resname="Report_Duration">
+				<source>Duration         : {1} ms</source>
+				<target>Duration         : {1} ms</target>
+			</trans-unit>
+			<trans-unit id="Report_Error" resname="Report_Error">
+				<source>Error</source>
+				<target>Error</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab1" resname="Info_Tab1">
+				<source>Overview</source>
+				<target>Overview</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab2" resname="Info_Tab2">
+				<source>Configure AI settings</source>
+				<target>Configure AI settings</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab3" resname="Info_Tab3">
+				<source>Configure Embeddings</source>
+				<target>Configure Embeddings</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab4" resname="Info_Tab4">
+				<source>Generate Embeddings</source>
+				<target>Generate Embeddings</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab5" resname="Info_Tab5">
+				<source>Update Records</source>
+				<target>Update Records</target>
+			</trans-unit>
+			<trans-unit id="Info_Tab6" resname="Info_Tab6">
+				<source>Search Embeddings</source>
+				<target>Search Embeddings</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

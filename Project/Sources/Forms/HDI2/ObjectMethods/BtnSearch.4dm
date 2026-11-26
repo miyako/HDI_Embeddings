@@ -1,51 +1,51 @@
-var $settings : cs:C1710.EmbeddingStudio.Settings
-var $definition : cs:C1710.EmbeddingStudio.Definition
-var $embedPrompt : cs:C1710.EmbeddingStudio.StudioEmbedder
-var $result : cs:C1710.EmbeddingStudio.EmbedderResult
+var $settings : cs.EmbeddingStudio.Settings
+var $definition : cs.EmbeddingStudio.Definition
+var $embedPrompt : cs.EmbeddingStudio.StudioEmbedder
+var $result : cs.EmbeddingStudio.EmbedderResult
 var $query : Text
 
-Form:C1466.searchResults:=""
+Form.searchResults:=""
 
-If (Form:C1466.queryText="")
-	ALERT:C41("Please enter a search query.")
+If (Form.queryText="")
+	ALERT(Localized string("Alert_EnterQuery"))
 	return 
 End if 
 
-If (Form:C1466.trace)
-	TRACE:C157
+If (Form.trace)
+	TRACE
 End if 
 
-$settings:=cs:C1710.EmbeddingStudio.Settings.new()
+$settings:=cs.EmbeddingStudio.Settings.new()
 $definition:=$settings.find("Students"; "student_vector")
-If ($definition=Null:C1517)
-	Form:C1466.searchResults:="No definition found. Check Settings/embeddings.json."
+If ($definition=Null)
+	Form.searchResults:=Localized string("Alert_NoDefinition")
 	return 
 End if 
 
 // Embed the query text with the same model as the stored vectors
 // (the embedder throws on API errors, e.g. provider unreachable or invalid key)
-$embedPrompt:=cs:C1710.EmbeddingStudio.StudioEmbedder.new()
+$embedPrompt:=cs.EmbeddingStudio.StudioEmbedder.new()
 Try
-	$result:=$embedPrompt.embed(Form:C1466.queryText; $definition)
+	$result:=$embedPrompt.embed(Form.queryText; $definition)
 Catch
-	Form:C1466.searchResults:="Error: "+Last errors:C1799[0].message
+	Form.searchResults:=Replace string(Localized string("Alert_ErrorTemplate"); "{1}"; Last errors[0].message)
 	return 
 End try
 
-If ($result.vector=Null:C1517)
-	Form:C1466.searchResults:="Error: no vector returned for the query."
+If ($result.vector=Null)
+	Form.searchResults:=Localized string("Alert_NoVector")
 	return 
 End if 
 
 // Similarity query: keep students above the threshold, best match first
 $query:="student_vector > :1"
-If (Not:C34(Form:C1466.includeDirtyVectors))
+If (Not(Form.includeDirtyVectors))
 	$query+=" and student_vector_dirty = false"
 End if 
 $query+=" order by student_vector desc"
 
-Form:C1466.students:=ds:C1482.Students.query($query; {vector: $result.vector; threshold: Form:C1466.threshold})
+Form.students:=ds.Students.query($query; {vector: $result.vector; threshold: Form.threshold})
 
-If (Form:C1466.students.length=0)
-	Form:C1466.searchResults:="No result"
+If (Form.students.length=0)
+	Form.searchResults:=Localized string("Msg_NoResult")
 End if 
