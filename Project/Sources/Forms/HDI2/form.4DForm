@@ -307,6 +307,20 @@
 					"method": "ObjectMethods/BtnGenerateAll.4dm",
 					"sizingX": "fixed",
 					"sizingY": "move"
+				},
+				"BtnRegenerate": {
+					"type": "button",
+					"top": 417,
+					"left": 486,
+					"width": 200,
+					"sizingX": "move",
+					"class": "Buttons_13",
+					"text": ":xliff:Btn_Regenerate",
+					"tooltip": ":xliff:Tip_Regenerate",
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/BtnRegenerate.4dm"
 				}
 			}
 		},
@@ -558,8 +572,8 @@
 				"InputSearch": {
 					"type": "input",
 					"top": 367,
-					"left": 125,
-					"width": 668,
+					"left": 310,
+					"width": 483,
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "Form:C1466.queryText",
@@ -746,6 +760,20 @@
 					],
 					"method": "ObjectMethods/BtnClear.4dm",
 					"class": "Buttons_13"
+				},
+				"DropSampleQueries": {
+					"type": "dropdown",
+					"top": 364,
+					"left": 125,
+					"width": 180,
+					"height": 27,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.sampleQueries",
+					"dataSourceTypeHint": "object",
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/DropSampleQueries.4dm"
 				}
 			}
 		}

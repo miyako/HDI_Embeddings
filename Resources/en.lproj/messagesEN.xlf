@@ -214,6 +214,46 @@
 				<source>Search Embeddings</source>
 				<target>Search Embeddings</target>
 			</trans-unit>
+			<trans-unit id="Search_Placeholder" resname="Search_Placeholder">
+				<source>Search examples…</source>
+				<target>Search examples…</target>
+			</trans-unit>
+			<trans-unit id="Search_Sample1" resname="Search_Sample1">
+				<source>AI research</source>
+				<target>AI research</target>
+			</trans-unit>
+			<trans-unit id="Search_Sample2" resname="Search_Sample2">
+				<source>network security</source>
+				<target>network security</target>
+			</trans-unit>
+			<trans-unit id="Search_Sample3" resname="Search_Sample3">
+				<source>loves databases</source>
+				<target>loves databases</target>
+			</trans-unit>
+			<trans-unit id="Search_Sample4" resname="Search_Sample4">
+				<source>user experience</source>
+				<target>user experience</target>
+			</trans-unit>
+			<trans-unit id="Search_Sample5" resname="Search_Sample5">
+				<source>predictive analytics</source>
+				<target>predictive analytics</target>
+			</trans-unit>
+			<trans-unit id="Btn_Regenerate" resname="Btn_Regenerate">
+				<source>Regenerate sample data</source>
+				<target>Regenerate sample data</target>
+			</trans-unit>
+			<trans-unit id="Tip_Regenerate" resname="Tip_Regenerate">
+				<source>Drop all students and recreate them in the current UI language</source>
+				<target>Drop all students and recreate them in the current UI language</target>
+			</trans-unit>
+			<trans-unit id="Confirm_Regenerate" resname="Confirm_Regenerate">
+				<source>Drop all students and recreate the sample data?&#13;Vectors must be regenerated afterwards.</source>
+				<target>Drop all students and recreate the sample data?&#13;Vectors must be regenerated afterwards.</target>
+			</trans-unit>
+			<trans-unit id="Msg_Regenerated" resname="Msg_Regenerated">
+				<source>{1} students created. Regenerate the vectors before searching.</source>
+				<target>{1} students created. Regenerate the vectors before searching.</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

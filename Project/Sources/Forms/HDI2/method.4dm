@@ -33,6 +33,12 @@ Case of
 		Form:C1466.includeDirtyVectors:=True:C214
 		Form:C1466.threshold:=0.5  // depends on the model
 		
+		// Sample queries for the Search tab (localized; -1 shows the placeholder)
+		Form:C1466.sampleQueries:=New object:C1471
+		Form:C1466.sampleQueries.values:=New collection:C1487(Localized string("Search_Sample1"); Localized string("Search_Sample2"); Localized string("Search_Sample3"); Localized string("Search_Sample4"); Localized string("Search_Sample5"))
+		Form:C1466.sampleQueries.index:=-1
+		Form:C1466.sampleQueries.currentValue:=Localized string("Search_Placeholder")
+		
 	: (Form event code:C388=On Page Change:K2:54)
 		
 		// Page 5 (Update Records): reload students so dirty flags reflect the latest Generate

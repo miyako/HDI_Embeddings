@@ -68,7 +68,17 @@
 		["Info_Tab3", "Configure Embeddings", "エンベディング設定"],
 		["Info_Tab4", "Generate Embeddings", "ベクトル生成"],
 		["Info_Tab5", "Update Records", "レコード更新"],
-		["Info_Tab6", "Search Embeddings", "ベクトル検索"]
+		["Info_Tab6", "Search Embeddings", "ベクトル検索"],
+		["Search_Placeholder", "Search examples…", "検索例…"],
+		["Search_Sample1", "AI research", "AI研究"],
+		["Search_Sample2", "network security", "ネットワークセキュリティ"],
+		["Search_Sample3", "loves databases", "データベースが好き"],
+		["Search_Sample4", "user experience", "ユーザー体験"],
+		["Search_Sample5", "predictive analytics", "予測分析"],
+		["Btn_Regenerate", "Regenerate sample data", "サンプルデータを再生成"],
+		["Tip_Regenerate", "Drop all students and recreate them in the current UI language", "全学生を削除し、現在のUI言語で再作成します"],
+		["Confirm_Regenerate", "Drop all students and recreate the sample data?\rVectors must be regenerated afterwards.", "全学生を削除してサンプルデータを再作成しますか？\rベクトルは後で再生成が必要です。"],
+		["Msg_Regenerated", "{1} students created. Regenerate the vectors before searching.", "{1} 人の学生を作成しました。検索の前にベクトルを再生成してください。"]
 	],
 	"toolbar": [
 		["Tip_Accept", "Accept", "受け入れる"],
